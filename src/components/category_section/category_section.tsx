@@ -10,7 +10,7 @@ export function Category_Section() {
                 <li className="flex bg-[#EDEDED7D] px-4 rounded-2xl  justify-center items-center">
                     <div className="flex flex-col gap-4">
                         <h1 className="font-semibold text-xl">Dining Tables</h1>
-                        <button className="bg-white font-bold text-sm p-2 rounded-full">See More</button>
+                        <button className="bg-white font-bold text-xs p-2 rounded-full">See More</button>
                     </div>
                     <div className="w-52 h-40 px-8">
                         <Image className="w-[100%] h-[100%]" src={image_table} alt="image"/>
@@ -19,7 +19,7 @@ export function Category_Section() {
                 <li className="flex bg-[#EDEDED7D] px-4 rounded-2xl  justify-center items-center">
                     <div className="flex flex-col gap-4">
                         <h1 className="font-semibold text-xl">Chairs</h1>
-                        <button className="bg-white font-bold text-sm p-2 rounded-full">See More</button>
+                        <button className="bg-white font-bold text-xs p-2 rounded-full">See More</button>
                     </div>
                     <div className="w-52 h-40 px-8">
                         <Image className="w-[100%] h-[100%]" src={image_sofa} alt="image"/>
@@ -28,7 +28,7 @@ export function Category_Section() {
                 <li className="flex bg-[#EDEDED7D] px-4 rounded-2xl  justify-center items-center">
                     <div className="flex flex-col gap-4">
                         <h1 className="font-semibold text-xl">Office Desks</h1>
-                        <button className="bg-white font-bold text-sm p-2 rounded-full">See More</button>
+                        <button className="bg-white font-bold text-xs p-2 rounded-full">See More</button>
                     </div>
                     <div className="w-52 h-40 px-8">
                         <Image className="w-[100%] h-[100%]" src={image_table_pc} alt="image"/>
