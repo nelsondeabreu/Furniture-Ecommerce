@@ -1,4 +1,15 @@
 import Image from "next/image";
+import sofa_yellow from "../../../public/sofa_yellow.jpeg"
+import sofa_white from "../../../public/sofa_white.jpeg"
+import table_light from "../../../public/table_light.jpeg"
+import marmore_table from "../../../public/marmore_table.jpeg";
+import sofa_green from "../../../public/sofa_green.jpeg";
+import cadeira from "../../../public/cadeira.jpeg";
+import armario from "../../../public/armario.jpeg";
+import sofa_yellow2 from "../../../public/sofa_yellow2.jpeg";
+
+
+import { ShoppingCart } from "lucide-react";
 
 
 export function Product_Section (){
@@ -21,9 +32,110 @@ export function Product_Section (){
             </header>
 
 
-            <ul className="w-[100%] flex">
-                <li>
-                    <Image src={""} alt="image"/>
+            <ul className="w-[100%] flex justify-between items-center flex-wrap gap-4">
+                <li className="flex flex-col w-[23%] gap-2">
+                    <div className="w-[100%] h-[17rem]">
+                        <Image src={sofa_yellow} alt="image" className="w-[100%] h-[100%] rounded-t-xl"/>
+                    </div>
+                    <h3 className="font-bold">Fabric Chair</h3>
+                    <div className="flex justify-between">
+                        <div className="flex gap-4">
+                            <span className="text-[#bebebe] line-through">$105.00</span>
+                            <span className="font-semibold">$95.00</span>
+                        </div>
+                        <ShoppingCart className="bg-gray-200 rounded-full p-1"/>
+                    </div>
+                </li>
+                <li className="flex flex-col w-[23%] gap-2">
+                    <div className="w-[100%] h-[17rem]">
+                        <Image src={sofa_white} alt="image" className="w-[100%] h-[100%] rounded-t-xl"/>
+                    </div>
+                    <h3 className="font-bold">Fabric Chair</h3>
+                    <div className="flex justify-between">
+                        <div className="flex gap-4">
+                            <span className="text-[#bebebe] line-through">$105.00</span>
+                            <span className="font-semibold">$95.00</span>
+                        </div>
+                        <ShoppingCart className="bg-gray-200 rounded-full p-1"/>
+                    </div>
+                </li>
+                <li className="flex flex-col w-[23%] gap-2">
+                    <div className="w-[100%] h-[17rem]">
+                        <Image src={table_light} alt="image" className="w-[100%] h-[100%] rounded-t-xl"/>
+                    </div>
+                    <h3 className="font-bold">Fabric Chair</h3>
+                    <div className="flex justify-between">
+                        <div className="flex gap-4">
+                            <span className="text-[#bebebe] line-through">$105.00</span>
+                            <span className="font-semibold">$95.00</span>
+                        </div>
+                        <ShoppingCart className="bg-gray-200 rounded-full p-1"/>
+                    </div>
+                </li>
+                <li className="flex flex-col w-[23%] gap-2">
+                    <div className="w-[100%] h-[17rem]">
+                        <Image src={marmore_table} alt="image" className="w-[100] h-[100%] rounded-t-xl"/>
+                    </div>
+                    <h3 className="font-bold">Fabric Chair</h3>
+                    <div className="flex justify-between">
+                        <div className="flex gap-4">
+                            <span className="text-[#bebebe] line-through">$105.00</span>
+                            <span className="font-semibold">$95.00</span>
+                        </div>
+                        <ShoppingCart className="bg-gray-200 rounded-full p-1"/>
+                    </div>
+                </li>
+                <li className="flex flex-col w-[23%] gap-2">
+                    <div className="w-[100%] h-[17rem]">
+                        <Image src={sofa_green} alt="image" className="w-[100] h-[100%] rounded-t-xl"/>
+                    </div>
+                    <h3 className="font-bold">Fabric Chair</h3>
+                    <div className="flex justify-between">
+                        <div className="flex gap-4">
+                            <span className="text-[#bebebe] line-through">$105.00</span>
+                            <span className="font-semibold">$95.00</span>
+                        </div>
+                        <ShoppingCart className="bg-gray-200 rounded-full p-1"/>
+                    </div>
+                </li>
+                <li className="flex flex-col w-[23%] gap-2">
+                    <div className="w-[100%] h-[17rem]">
+                        <Image src={sofa_yellow2} alt="image" className="w-[100] h-[100%] rounded-t-xl"/>
+                    </div>
+                    <h3 className="font-bold">Fabric Chair</h3>
+                    <div className="flex justify-between">
+                        <div className="flex gap-4">
+                            <span className="text-[#bebebe] line-through">$105.00</span>
+                            <span className="font-semibold">$95.00</span>
+                        </div>
+                        <ShoppingCart className="bg-gray-200 rounded-full p-1"/>
+                    </div>
+                </li>
+                <li className="flex flex-col w-[23%] gap-2">
+                    <div className="w-[100%] h-[17rem]">
+                        <Image src={armario} alt="image" className="w-[100] h-[100%] rounded-t-xl"/>
+                    </div>
+                    <h3 className="font-bold">Fabric Chair</h3>
+                    <div className="flex justify-between">
+                        <div className="flex gap-4">
+                            <span className="text-[#bebebe] line-through">$105.00</span>
+                            <span className="font-semibold">$95.00</span>
+                        </div>
+                        <ShoppingCart className="bg-gray-200 rounded-full p-1"/>
+                    </div>
+                </li>
+                <li className="flex flex-col w-[23%] gap-2">
+                    <div className="w-[100%] h-[17rem]">
+                        <Image src={cadeira} alt="image" className="w-[100] h-[100%] rounded-t-xl"/>
+                    </div>
+                    <h3 className="font-bold">Fabric Chair</h3>
+                    <div className="flex justify-between">
+                        <div className="flex gap-4">
+                            <span className="text-[#bebebe] line-through">$105.00</span>
+                            <span className="font-semibold">$95.00</span>
+                        </div>
+                        <ShoppingCart className="bg-gray-200 rounded-full p-1"/>
+                    </div>
                 </li>
             </ul>
         </div>
