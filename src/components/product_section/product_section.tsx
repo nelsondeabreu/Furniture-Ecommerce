@@ -7,10 +7,7 @@ import sofa_green from "../../../public/sofa_green.jpeg";
 import cadeira from "../../../public/cadeira.jpeg";
 import armario from "../../../public/armario.jpeg";
 import sofa_yellow2 from "../../../public/sofa_yellow2.jpeg";
-
-
 import { ShoppingCart } from "lucide-react";
-
 
 export function Product_Section (){
     return(
