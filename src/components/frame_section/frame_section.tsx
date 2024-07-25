@@ -1,9 +1,13 @@
 import { CircleCheckBig , MessageCircle , CircleCheck , UserRoundCheck } from "lucide-react";
 import Image from "next/image";
-import bed_white from "../../../public/bed_white.jpeg"
+import React from 'react';
 import img_user from "../../../public/img_user.jpeg"
+interface PropsImage{
+    src: string
+}
 
-export function Frame_Section(){
+export const Frame_Section: React.FC<PropsImage> = ({src})=>{
+    
     return(
         <div className="w-[100%] flex justify-between items-center">
             <div className="flex flex-col gap-4">
@@ -25,7 +29,10 @@ export function Frame_Section(){
                 <button className="bg-black rounded-full text-white w-28 p-2 text-sm">Shop Now</button>
             </div>
             <div className="relative">
-                <Image src={bed_white} alt="image" className="h-[30em] w-[30em]"/>
+                <div className="w-[30em] h-[30em]">
+                    <Image src={src} alt="image" layout="fill" objectFit="cover"/>
+                </div>
+                
                 <div className="flex justify-between items-center shadow-xl gap-2 bg-white w-[60%] px-3 py-2 absolute top-0 right-[18rem] mt-16 rounded-xl">
                     <div className="flex gap-2">
                         <Image src={img_user} alt="image user" className="w-12 h-12 rounded-full"/>
