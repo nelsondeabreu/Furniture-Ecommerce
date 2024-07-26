@@ -31,8 +31,8 @@ export function Product_Section (){
 
             <ul className="w-[100%] flex justify-between items-center flex-wrap gap-4">
                 <li className="flex flex-col w-[23%] gap-2">
-                    <div className="w-[100%] h-[17rem]">
-                        <Image src={sofa_yellow} alt="image" className="w-[100%] h-[100%] rounded-t-xl"/>
+                    <div className="w-[100%] h-[17rem] relative">
+                        <Image src={sofa_yellow} alt="image" layout="fill" objectFit="cover" className="rounded-t-xl"/>
                     </div>
                     <h3 className="font-bold">Fabric Chair</h3>
                     <div className="flex justify-between">
@@ -44,8 +44,8 @@ export function Product_Section (){
                     </div>
                 </li>
                 <li className="flex flex-col w-[23%] gap-2">
-                    <div className="w-[100%] h-[17rem]">
-                        <Image src={sofa_white} alt="image" className="w-[100%] h-[100%] rounded-t-xl"/>
+                    <div className="w-[100%] h-[17rem] relative">
+                        <Image src={sofa_white} alt="image" layout="fill" objectFit="cover" className="rounded-t-xl"/>
                     </div>
                     <h3 className="font-bold">Fabric Chair</h3>
                     <div className="flex justify-between">
@@ -57,8 +57,8 @@ export function Product_Section (){
                     </div>
                 </li>
                 <li className="flex flex-col w-[23%] gap-2">
-                    <div className="w-[100%] h-[17rem]">
-                        <Image src={table_light} alt="image" className="w-[100%] h-[100%] rounded-t-xl"/>
+                    <div className="w-[100%] h-[17rem] relative">
+                        <Image src={table_light} alt="image" layout="fill" objectFit="cover" className="rounded-t-xl"/>
                     </div>
                     <h3 className="font-bold">Fabric Chair</h3>
                     <div className="flex justify-between">
@@ -70,8 +70,8 @@ export function Product_Section (){
                     </div>
                 </li>
                 <li className="flex flex-col w-[23%] gap-2">
-                    <div className="w-[100%] h-[17rem]">
-                        <Image src={marmore_table} alt="image" className="w-[100] h-[100%] rounded-t-xl"/>
+                    <div className="w-[100%] h-[17rem] relative">
+                        <Image src={marmore_table} alt="image" layout="fill" objectFit="cover" className="rounded-t-xl"/>
                     </div>
                     <h3 className="font-bold">Fabric Chair</h3>
                     <div className="flex justify-between">
@@ -83,8 +83,8 @@ export function Product_Section (){
                     </div>
                 </li>
                 <li className="flex flex-col w-[23%] gap-2">
-                    <div className="w-[100%] h-[17rem]">
-                        <Image src={sofa_green} alt="image" className="w-[100] h-[100%] rounded-t-xl"/>
+                    <div className="w-[100%] h-[17rem] relative">
+                        <Image src={sofa_green} alt="image" layout="fill" objectFit="cover" className="rounded-t-xl"/>
                     </div>
                     <h3 className="font-bold">Fabric Chair</h3>
                     <div className="flex justify-between">
@@ -96,8 +96,8 @@ export function Product_Section (){
                     </div>
                 </li>
                 <li className="flex flex-col w-[23%] gap-2">
-                    <div className="w-[100%] h-[17rem]">
-                        <Image src={sofa_yellow2} alt="image" className="w-[100] h-[100%] rounded-t-xl"/>
+                    <div className="w-[100%] h-[17rem] relative">
+                        <Image src={sofa_yellow2} alt="image" layout="fill" objectFit="cover" className="rounded-t-xl"/>
                     </div>
                     <h3 className="font-bold">Fabric Chair</h3>
                     <div className="flex justify-between">
@@ -109,8 +109,8 @@ export function Product_Section (){
                     </div>
                 </li>
                 <li className="flex flex-col w-[23%] gap-2">
-                    <div className="w-[100%] h-[17rem]">
-                        <Image src={armario} alt="image" className="w-[100] h-[100%] rounded-t-xl"/>
+                    <div className="w-[100%] h-[17rem] relative">
+                        <Image src={armario} alt="image" layout="fill" objectFit="cover" className="rounded-t-xl"/>
                     </div>
                     <h3 className="font-bold">Fabric Chair</h3>
                     <div className="flex justify-between">
@@ -122,8 +122,8 @@ export function Product_Section (){
                     </div>
                 </li>
                 <li className="flex flex-col w-[23%] gap-2">
-                    <div className="w-[100%] h-[17rem]">
-                        <Image src={cadeira} alt="image" className="w-[100] h-[100%] rounded-t-xl"/>
+                    <div className="w-[100%] h-[17rem] relative">
+                        <Image src={cadeira} alt="image" layout="fill" objectFit="cover" className="rounded-t-xl"/>
                     </div>
                     <h3 className="font-bold">Fabric Chair</h3>
                     <div className="flex justify-between">

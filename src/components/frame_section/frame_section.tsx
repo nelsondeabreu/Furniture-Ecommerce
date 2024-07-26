@@ -1,15 +1,25 @@
 import { CircleCheckBig , MessageCircle , CircleCheck , UserRoundCheck } from "lucide-react";
 import Image from "next/image";
 import React from 'react';
-import img_user from "../../../public/img_user.jpeg"
 interface PropsImage{
     src: string
+    nameUser: string
+    imageUser: string
+    direction?: 'row' | 'row-reverse' | 'column' | 'column-reverse';
+    right: string
 }
 
-export const Frame_Section: React.FC<PropsImage> = ({src})=>{
+export const Frame_Section: React.FC<PropsImage> = ({src , imageUser , direction , right , nameUser})=>{
+    const style={
+        display: "flex",
+        flexDirection: direction || 'row'
+    }
+    const style1={
+        right:right
+    }
     
     return(
-        <div className="w-[100%] flex justify-between items-center">
+        <div style={style} className="w-[100%] justify-between items-center">
             <div className="flex flex-col gap-4">
                 <h1 className="w-[21rem] font-bold text-3xl">
                     Elevate Your Space with Uncompromising Quality
@@ -33,11 +43,14 @@ export const Frame_Section: React.FC<PropsImage> = ({src})=>{
                     <Image src={src} alt="image" layout="fill" objectFit="cover"/>
                 </div>
                 
-                <div className="flex justify-between items-center shadow-xl gap-2 bg-white w-[60%] px-3 py-2 absolute top-0 right-[18rem] mt-16 rounded-xl">
+                <div style={style1} className="flex justify-between items-center shadow-xl gap-2 bg-white w-[60%] px-3 py-2 absolute top-0 mt-16 rounded-xl">
                     <div className="flex gap-2">
-                        <Image src={img_user} alt="image user" className="w-12 h-12 rounded-full"/>
+                        <div className="w-12 h-12 relative">
+                            <Image src={imageUser} layout="fill" objectFit="cover" alt="image user" className="rounded-full"/>
+                        </div>
+                        
                         <ul>
-                            <li><h1 className="font-semibold">Mark Anderson</h1></li>
+                            <li><h1 className="font-semibold">{nameUser}</h1></li>
                             <li><p className="text-xs">Furniture Craftsmanship</p></li>
                         </ul>
                     </div>
