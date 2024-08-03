@@ -5,12 +5,13 @@ import { Category_Section } from "@/components/category_section/category_section
 import { Product_Section } from "@/components/product_section/product_section";
 import { Frame_Section } from "@/components/frame_section/frame_section";
 import { Frame2_Section } from "@/components/frame2_section/frame2_section";
+import { Tittle } from "@/components/tittle/tittle";
 
 
 const Home: React.FC =()=> {
 
   return (
-    <main className="w-screen h-screen  overflow-x-hidden">
+    <main className="flex flex-col w-screen h-screen gap-8 overflow-x-hidden">
       <div className="flex flex-col w-[100%] items-center px-16 py-4 gap-8">
         <Header/>
         <Hero_Section/>
@@ -31,6 +32,11 @@ const Home: React.FC =()=> {
         />
       </div>
       <Frame2_Section/>
+      <Tittle 
+        text1="Check Our Collection" 
+        text2="Our Furniture Gallery" 
+        text3="Explore Our Gallery of Inspiring Designs"
+      />
       
     </main>
   );
