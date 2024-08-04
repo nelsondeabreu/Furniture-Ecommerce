@@ -6,6 +6,7 @@ import { Product_Section } from "@/components/product_section/product_section";
 import { Frame_Section } from "@/components/frame_section/frame_section";
 import { Frame2_Section } from "@/components/frame2_section/frame2_section";
 import { Tittle } from "@/components/tittle/tittle";
+import { Gallery } from "@/components/gallery/gallery";
 
 
 const Home: React.FC =()=> {
@@ -37,7 +38,15 @@ const Home: React.FC =()=> {
         text2="Our Furniture Gallery" 
         text3="Explore Our Gallery of Inspiring Designs"
       />
-      
+      <Gallery 
+        img1="/image26.jpeg" img2="/image27.jpeg" img3="/image28.jpeg"
+        img4="/image29.jpeg" img5="/image30.jpeg" img6="/image31.jpeg"
+      />
+      <Tittle 
+        text1="Check Our Collection" 
+        text2="Our Furniture Gallery" 
+        text3="Explore Our Gallery of Inspiring Designs"
+      />
     </main>
   );
 }
