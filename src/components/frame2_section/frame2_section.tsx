@@ -58,7 +58,7 @@ export const Frame2_Section =()=>{
                             <div>
                                 <h1 className="font-bold text-xl">Dedicated Customer Support</h1>
                                 <p className="w-[30em] text-sm">
-                                    Quiuckly navigate you anda engage with your adience
+                                    Quickly navigate you anda engage with your adience
                                 </p>
                             </div>
                     </div>
